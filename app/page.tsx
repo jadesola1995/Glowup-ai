@@ -1,4 +1,4 @@
-"use clint";
+"use client";
 export default function Home() {
   return (
     <main
