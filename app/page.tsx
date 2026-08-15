@@ -1,4 +1,4 @@
-
+"use clint";
 export default function Home() {
   return (
     <main
@@ -67,6 +67,7 @@ export default function Home() {
             fontWeight: "bold",
             cursor: "pointer",
           }}
+          onClick={() => alert("Your Glowup is starting! ✨")}
         >
           Start Your Glowup ✨
         </button>
